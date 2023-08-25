@@ -1,0 +1,6 @@
+# Scripts-For-Cloud-Administrator
+Scripts para el dia a dia de los Cloud SysAdmins
+
+Este repositorio alberga una colección de scripts diseñados para simplificar y agilizar las tareas diarias de los administradores de sistemas en entornos de nube. Estos scripts son herramientas útiles que abordan diversas tareas y desafíos comunes que enfrentan los profesionales encargados de administrar infraestructuras en la nube.
+El objetivo principal de este repositorio es proporcionar a los administradores de sistemas en entornos de nube una serie de soluciones automatizadas para las tareas repetitivas y propensas a errores. Al agrupar estos scripts en un solo lugar, se pretende fomentar la colaboración, el aprendizaje y la mejora continua, ya que los desarrolladores pueden contribuir con nuevos scripts, mejorar los existentes y compartir conocimientos sobre las mejores prácticas en la administración de sistemas en la nube.
+El repositorio contiene una variedad de scripts escritos en lenguajes de programación adecuados para tareas en entornos de nube, como Python, Bash, PowerShell, entre otros. Estos scripts abarcan áreas como aprovisionamiento y desaprovisionamiento de recursos, gestión de seguridad, monitoreo, respaldo y recuperación, automatización de despliegues, y más.
