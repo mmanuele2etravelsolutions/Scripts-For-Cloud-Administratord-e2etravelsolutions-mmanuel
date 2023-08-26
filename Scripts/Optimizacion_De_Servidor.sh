@@ -36,8 +36,6 @@ echo "<---------------------------------------------------------->"
 
 sleep 3s; echo "Mantenimiento rutinario"
 echo "Script liberador sh"
-echo "Created by Sergio G.B."
-echo "http://www.sololinux.es"
 echo "<---------------------------------------------------------->"
 
 sleep 2s; free

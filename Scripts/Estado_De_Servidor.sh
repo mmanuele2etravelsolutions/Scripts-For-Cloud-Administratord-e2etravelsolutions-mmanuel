@@ -2,7 +2,7 @@
 
     sudo apt install -y nmap htop
 
-
+    echo " "
     echo "************************ [General] ****************************"
     echo " "
     echo "  Hora:           " `date '+%m-%d-%y %H:%M:%S'`
@@ -13,7 +13,7 @@
     echo "************************ [Hardware] ***************************"
     echo " "
     echo "  Procesador:               " `cat /proc/cpuinfo | grep "model name" | uniq | cut -f2 -d":"`
-    echo "  Nï¿½m.Prosd/nucleos:      " `cat /proc/cpuinfo | grep processor | wc -l`
+    echo "  Num.Prosd/nucleos:      " `cat /proc/cpuinfo | grep processor | wc -l`
     echo " "
 
     echo "*********************** [Memoria RAM] **************************"
@@ -36,7 +36,7 @@
 
     echo "************************** [More Info] *************************"
     echo " "
-    echo "  Uptime:                 " `uptime | cut -f4 -d" "` dï¿½as
+    echo "  Uptime:                 " `uptime | cut -f4 -d" "` dias
     echo "  Usuarios conectados:    " `w | wc -l`
     echo "  Procesos:               " `ps aux | wc -l`
     echo "  Carga de procesador:    " `uptime | awk '{print $(NF - 2), $(NF - 1), $NF}'`
